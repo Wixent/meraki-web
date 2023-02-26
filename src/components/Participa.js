@@ -7,9 +7,12 @@ import hr from "../assets/curve-hr.svg"
 
 const MyComponent = () => {
     return (
+      <div id="participa-button" className="mt-4">
       <PopupButton id="gBEWkJJl" style={{ fontSize: 20 }} className="my-button">
         Haz Click aquí para participar.
       </PopupButton>
+      </div>
+      
     )
   }
 
