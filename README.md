@@ -14,5 +14,10 @@ In the same directory as the cloned repository, run the following commands to se
  $ npm install
 ```
 To then start the local site
-```
+```bash
  $ npm start
+```
+  # Credits
+  
+Credits to the [user radendi](https://github.com/radendi/react-portfolio-2) for being the template of this web page!
+
