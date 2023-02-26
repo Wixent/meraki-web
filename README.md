@@ -1,7 +1,7 @@
 # Meraki Web
-
+ 🇪🇸
  Página Web de la Lista Meraki para postular al Centro de Alumnos del Instituto de Humanidades Luis Campino
- 
+ 🇬🇧
  Web page of the Meraki List to apply to the Student Council of the Instituto de Humanidades Luis Campino
  
  # Running locally
