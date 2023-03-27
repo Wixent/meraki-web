@@ -1,7 +1,8 @@
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import { useForm } from 'react-hook-form';
+import { useForm, Controller } from 'react-hook-form';
+import { TextField, Checkbox } from "@mui/material";
 
 import hr from "../assets/curve-hr.svg"
 
@@ -9,8 +10,12 @@ export default function Contactanos() {
     const { register, handleSubmit, formState: { errors } } = useForm();
     const onSubmit = data => console.log(data);
     console.log(errors);
-    
-
+    const { control } = useForm({
+        defaultValues: {
+          firstName: '',
+          select: {}
+        }
+    });
     return (
         <div id="contact" className="mt-4 text-white">
             
@@ -22,8 +27,8 @@ export default function Contactanos() {
             <input type="text" placeholder="Nombre" {...register("Nombre", {})} />
             <input type="email" placeholder="Mail" {...register("Mail", {})} />
             <textarea {...register("Mensaje", {})} />
-
-         < input type="submit" />
+            
+            <input type="submit" />
             </form>
         
             <img src={hr} className="w-full mt-8 md:h-3" alt="hr" />

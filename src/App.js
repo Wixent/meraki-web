@@ -18,7 +18,7 @@ function App() {
       AOS.init();
     }, []);
   return (
-    <div className="px-6 lg:px-20 xl:px-36 bg-dark-500">
+    <div className="px-6 lg:px-20 xl:px-36 bg-dark-400">
       <Navbar />
       <Meraki />
       <Nosotros/>
