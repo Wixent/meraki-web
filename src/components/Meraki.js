@@ -48,7 +48,7 @@ export default function Meraki () {
                     <h1 className="text-2xl font-bold">Lista postulante al Centro de Almunos IHLC 2023</h1>
                     <p className="text-md font-light text-gray-400 ">La palabra 'Meraki' proviene del Griego y a su vez, del Turco 'Merak', que significa "Hacer algo con amor y con pasión".</p>
                 </div>
-                <a href='https://www.instagram.com/listameraki2023/' className='mt-2 block'>Siguenos en nuestro instagram<FontAwesomeIcon className='ml-2' icon={faCircleArrowRight}/> </a>
+                <a href='https://www.instagram.com/listameraki23/' className='mt-2 block'>Síguenos en nuestro Instagram<FontAwesomeIcon className='ml-2' icon={faCircleArrowRight}/> </a>
             
             
             </div>

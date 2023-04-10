@@ -1,12 +1,10 @@
 import './App.css';
 import {useEffect} from 'react'
-import Navbar from './components/Navbar';
-import Meraki from './components/Meraki';
-import Nosotros from './components/Nosotros'
-import Propuestas from './components/Propuestas';
-import Contactanos from './components/Contactanos'
-import Participa from './components/Participa';
-import Footer from './components/Footer';
+
+import { Routes, Route } from 'react-router-dom';
+
+import Home from './Home';
+import Convivencia from './Convivencia';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -18,14 +16,11 @@ function App() {
       AOS.init();
     }, []);
   return (
-    <div className="px-6 lg:px-20 xl:px-36 bg-dark-400">
-      <Navbar />
-      <Meraki />
-      <Nosotros/>
-      <Propuestas />
-      <Contactanos />
-      <Participa />
-      <Footer />
+    <div className="px-6 lg:px-20 xl:px-36 bg-dark-400"> 
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="convivencia" element={<Convivencia />} />
+      </Routes>
     </div>
   );
 }

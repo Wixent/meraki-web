@@ -1,6 +1,7 @@
 import logo from '../assets/logo.svg';
 import logo2 from '../assets/logoen.png'
 import resume from "../assets/resume.pdf"
+import { Link } from 'react-router-dom';
 
 export default function Navbar() {
     return (
@@ -8,7 +9,7 @@ export default function Navbar() {
         <div className="flex justify-between items-center text-white">
             <img src={logo2} className="App-logo w-10 rounded-full" alt="logo" />
             <ul className="hidden md:flex">
-            <li className="p-4"><a href="#home" className="hover:underline">Meraki</a></li>
+            <Link to="/#home"><li className="p-4"><a className="hover:underline">Meraki</a></li></Link>
             <li className="p-4"><a href="#about" className="hover:underline">Quienes somos</a></li>
             <li className="p-4"><a href="#propuestas" className="hover:underline">Propuestas</a></li>
             <li className="p-4"><a href="#contact" className="hover:underline">Contactanos</a></li>

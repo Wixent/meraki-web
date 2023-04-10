@@ -40,12 +40,13 @@ export default function Nosotros() {
             <div className="mt-4">
                 <Slider {...settings}>
                 <SkillCard name="Vicente Araos" experience="Presidente" curso="III°C" img={linux} />
-                <SkillCard name="Martina Uribe" experience="Vicepresidente" curso="III°C" img={bash} />
-                <SkillCard name="Florencia Ripetti" experience="Tesorero" curso="III°C" img={python} />
+                <SkillCard name="Martina Uribe" experience="Vicepresidenta" curso="III°C" img={bash} />
+                <SkillCard name="Florencia Ripetti" experience="Tesorera" curso="III°C" img={python} />
                 <SkillCard name="Àlvaro Paredes" experience="Secretario" curso="III°D" img={javascript} />
                 <SkillCard name="Santiago Carbonetti" experience="Delegado de Pastoral" curso="III°C" img={reactIcon} />
-                <SkillCard name="Aidan Canales (?" experience="Delegado de Convivencia" curso="II°C" img={kvm} />
-                <SkillCard name="Isidora Lizama" experience="Delegado de Ciclo Menor" curso="II°A" img={mikrotik} />
+                <SkillCard name="Aidan Shyrne" experience="Delegado de Convivencia" curso="II°C" img={kvm} />
+                <SkillCard name="Isidora Lizama" experience="Delegada de Cultura y Medioambiente" curso="II°A" img={mikrotik} />
+                <SkillCard name="María Jesús Benavides" experience="Delegada de Ciclo Menor" curso="II°A" img={mikrotik} />
                 <SkillCard name="Fernando González" experience="Delegado de Deporte" curso="I°B" img={tailwind} />
                 </Slider>
             </div>
